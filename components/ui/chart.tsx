@@ -292,9 +292,15 @@ const ChartLegendContent = React.forwardRef<
           return (
             <div
               key={item.value}
+<<<<<<< HEAD
               className={
                 'flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3 [&>svg]:text-muted-foreground'
               }
+=======
+              className={cn(
+                'flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3 [&>svg]:text-muted-foreground',
+              )}
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
             >
               {itemConfig?.icon && !hideIcon ? (
                 <itemConfig.icon />

@@ -210,8 +210,13 @@ export function ServiceSelectionCard() {
     <div className="h-full rounded-lg border border-border bg-background/50 p-6 hover:border-primary/50 transition-all duration-300">
       <div className="space-y-6">
         <div>
+<<<<<<< HEAD
           <h3 className="text-2xl font-bold mb-2">Select a Service</h3>
           <p className="text-muted-foreground">Choose the service you're interested in to start a consultation</p>
+=======
+          <h3 className="text-2xl font-bold mb-2">Nos ponemos a laburar</h3>
+          <p className="text-muted-foreground">Empezamos a hacer lo nuestro </p>
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
         </div>
 
         <div className="grid grid-cols-2 gap-3">

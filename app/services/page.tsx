@@ -1,6 +1,10 @@
 "use client"
 
 import { motion } from "framer-motion"
+<<<<<<< HEAD
+=======
+import { NavBar } from "@/components/nav-bar"
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
 import { Footer } from "@/components/footer"
 import {
   Code,
@@ -109,6 +113,10 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
+<<<<<<< HEAD
+=======
+      <NavBar />
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4">

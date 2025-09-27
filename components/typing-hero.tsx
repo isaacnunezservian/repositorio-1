@@ -11,12 +11,21 @@ export function TypingHero() {
   const [showCursor, setShowCursor] = useState(true)
 
   const phrases = [
+<<<<<<< HEAD
     { text: "Creá tu propia tienda", color: "text-emerald-400", cursorColor: "bg-emerald-400" },
         { text: "Con impacto visual", color: "text-orange-400", cursorColor: "bg-orange-400" },
     { text: "SIN COMISIONES", color: "text-blue-400", cursorColor: "bg-blue-400" },
   ]
 
   const baseText = "Se cierra Mercadoshops "
+=======
+    { text: "migrá tu tienda", color: "text-emerald-400", cursorColor: "bg-emerald-400" },
+    { text: "sin perder ventas", color: "text-blue-400", cursorColor: "bg-blue-400" },
+    { text: "y SIN COMISIONES", color: "text-orange-400", cursorColor: "bg-orange-400" },
+  ]
+
+  const baseText = "Se cierra MercadoShops"
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
   const typingSpeed = 100
   const deletingSpeed = 50
   const pauseTime = 2000
@@ -63,6 +72,7 @@ export function TypingHero() {
       <div className="flex flex-wrap justify-center">
         <span className="text-white mr-2">{">"}</span>
         <div className="relative">
+<<<<<<< HEAD
           <span className="text-white">{baseText}</span> <br />
           <span className={`${phrases[currentPhraseIndex].color} drop-shadow-[0_0_20px_rgba(52,211,153,0.5)]`}>
             {displayText}
@@ -74,6 +84,21 @@ export function TypingHero() {
               transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY }}
             />
           )}
+=======
+          <div className="text-center">
+            <div className="text-white">{baseText}</div>
+            <div className={`${phrases[currentPhraseIndex].color} drop-shadow-[0_0_20px_rgba(52,211,153,0.5)]`}>
+              {displayText}
+              {showCursor && (
+                <motion.span
+                  className={`inline-block w-4 h-10 ${phrases[currentPhraseIndex].cursorColor} ml-1`}
+                  animate={{ opacity: [1, 0, 1] }}
+                  transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY }}
+                />
+              )}
+            </div>
+          </div>
+>>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
         </div>
       </div>
     </h1>
