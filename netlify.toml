@@ -1,5 +1,4 @@
 [build]
-<<<<<<< HEAD
   publish = ".next"
   command = "npm run build"
 
@@ -18,7 +17,6 @@
   conditions = {Role = ["admin"]}
 
 # Handle Next.js routing
-=======
   # Build command
   command = "npm run build"
   
@@ -40,18 +38,14 @@
   conditions = {Role = ["admin"], Country = ["US"]}
 
 # Headers for security and performance
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-<<<<<<< HEAD
-    X-Content-Type-Options = "nosniff"
-=======
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Cache-Control = "public, max-age=0, must-revalidate"
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/static/*"
@@ -71,4 +65,3 @@
 # Form handling (if needed for fallback)
 [forms]
   settings = { recipients = ["isaac.nunezservian@gmail.com"] }
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca

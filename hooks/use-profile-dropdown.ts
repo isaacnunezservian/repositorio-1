@@ -20,6 +20,9 @@ export function useProfileDropdown() {
   const showDropdown = () => setIsVisible(true)
   const hideDropdown = () => setIsVisible(false)
 
+  // Backwards compatible alias
+  const showProfile = showDropdown
+
   const updateProfile = (data: Partial<ProfileData>) => {
     setProfileData((prev) => ({
       ...prev,
@@ -35,6 +38,7 @@ export function useProfileDropdown() {
     isVisible,
     profileData,
     showDropdown,
+    showProfile,
     hideDropdown,
     updateProfile,
   }

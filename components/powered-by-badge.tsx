@@ -3,12 +3,8 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Star, Clock, DollarSign, Users, Award, X, CheckCircle, Zap, Globe } from "lucide-react"
-<<<<<<< HEAD
-
-=======
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
 
 export function PoweredByBadge() {
   const [showSidebar, setShowSidebar] = useState(false)
@@ -50,11 +46,6 @@ export function PoweredByBadge() {
           className="inline-flex items-center px-3 py-2 bg-black/80 backdrop-blur-sm border border-gray-700 rounded-full text-xs text-gray-300 hover:border-emerald-500/50 transition-all duration-300 cursor-pointer hover:shadow-[0_0_20px_rgba(52,211,153,0.1)]"
           onClick={handleClick}
         >
-<<<<<<< HEAD
-          <span className="text-xs ml-1 mr-1">El 31 de diciembre de 2025</span>
-        </motion.div>
-      </div>
-=======
           <span className="text-xs ml-1 mr-1">¿Qué vas a hacer?</span>
         </motion.div>
       </div>
@@ -265,8 +256,7 @@ export function PoweredByBadge() {
             </motion.div>
           </>
         )}
-      </AnimatePresence>
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
+  </AnimatePresence>
     </>
   )
 }

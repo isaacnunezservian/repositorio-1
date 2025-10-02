@@ -472,7 +472,7 @@ export default function PortfolioPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-4">Technologies Used</h3>
                   <div className="flex flex-wrap gap-2">
-                    {selectedClient.tags.map((tag, index) => (
+                    {selectedClient.tags.map((tag: string, index: number) => (
                       <span
                         key={index}
                         className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full border border-primary/20"
@@ -495,7 +495,7 @@ export default function PortfolioPage() {
                         <span className="text-primary font-semibold">
                           {selectedClient.testimonial.author
                             .split(" ")
-                            .map((n) => n[0])
+                            .map((n: string) => n[0])
                             .join("")}
                         </span>
                       </div>

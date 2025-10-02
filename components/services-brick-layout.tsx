@@ -140,7 +140,7 @@ export function ServicesBrickLayout() {
     },
   ]
 
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -150,7 +150,7 @@ export function ServicesBrickLayout() {
     },
   }
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { y: 50, opacity: 0, scale: 0.9 },
     visible: {
       y: 0,

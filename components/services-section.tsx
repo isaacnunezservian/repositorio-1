@@ -172,7 +172,7 @@ export function ServicesSection() {
     setActiveService((prev) => (prev - 1 + services.length) % services.length)
   }
 
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -182,7 +182,7 @@ export function ServicesSection() {
     },
   }
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,

@@ -17,7 +17,7 @@ type AnimatedTextProps = {
   color?: string
 }
 
-const defaultAnimations = {
+const defaultAnimations: any = {
   fade: {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },

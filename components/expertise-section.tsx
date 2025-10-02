@@ -81,22 +81,14 @@ export function ExpertiseSection(): ReactElement {
                 ref={zeroOneRef}
                 className="text-[120px] sm:text-[180px] font-bold leading-none text-primary/80 relative"
               >
-<<<<<<< HEAD
                 0-
-=======
-                1.
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                 {showOne ? (
                   <motion.span
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                   >
-<<<<<<< HEAD
                     1
-=======
-                    0
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                   </motion.span>
                 ) : (
                   <motion.span initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ duration: 0.3 }}>
@@ -109,30 +101,12 @@ export function ExpertiseSection(): ReactElement {
             <motion.div variants={itemVariants} className="lg:col-span-8 space-y-6">
               <div className="space-y-2">
                 <div className="flex items-center space-x-3">
-<<<<<<< HEAD
-                  <h2 className="text-2xl font-bold">WELTIVATION™</h2>
-=======
                   <h2 className="text-2xl font-bold">Primera entrevista</h2>
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                   <motion.div
                     className="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-primary-foreground text-xs font-bold"
                     animate={{ scale: [1, 1.1, 1] }}
                     transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                   >
-<<<<<<< HEAD
-                    99+
-                  </motion.div>
-                </div>
-                <p className="text-primary text-sm">Trusted by industry leaders</p>
-                <div className="flex text-primary">
-                  <span>★★★★★</span>
-                </div>
-              </div>
-
-              <h3 className="text-3xl sm:text-4xl font-bold leading-tight">
-                We help brands grow with strategic design that's thoughtful, visually bold, and built to make an
-                impression.
-=======
                     '15 
                   </motion.div>
                 </div>
@@ -144,7 +118,6 @@ export function ExpertiseSection(): ReactElement {
 
               <h3 className="text-3xl sm:text-4xl font-bold leading-tight">
                Nos contas tus problemas del día a día y que estás buscando en una web.
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
               </h3>
             </motion.div>
           </div>
@@ -176,24 +149,16 @@ export function ExpertiseSection(): ReactElement {
 
                   <ViewportTriggered45Percent />
 
-<<<<<<< HEAD
-                  <p className="text-muted-foreground">of clients recommend us to other clients</p>
-=======
                                     <p className="text-muted-foreground mt-4 max-w-md">
                     El 45% de los comercios piloto recomendó la migración a otros colegas.
                   </p>
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
 
                   {/* Enhanced testimonial section */}
                   <div className="pt-2 pb-4">
                     <div className="flex items-start space-x-2">
                       <ThumbsUp className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                       <p className="text-xs text-muted-foreground italic">
-<<<<<<< HEAD
-                        "Their expertise in web development and business systems transformed our operations completely."
-=======
                         "Su trabajo nos permitió mantener ventas y reducir comisiones — la migración fue impecable."
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                       </p>
                     </div>
                   </div>
@@ -299,24 +264,13 @@ export function ExpertiseSection(): ReactElement {
             <motion.div variants={itemVariants} className="group">
               <div className="h-full rounded-lg border border-border bg-background/50 p-6 hover:border-primary/50 transition-all duration-300">
                 <div className="space-y-6">
-<<<<<<< HEAD
                   <div className="space-y-4">
-                    <h3 className="text-2xl font-bold">A streamlined process, executed with methodical care.</h3>
+                    <h3 className="text-2xl font-bold">Un proceso simplificado, ejecutado con cuidado metodol\u00f3gico.</h3>
                     <p className="text-muted-foreground">
-                      We transform overwhelming brands into standout experiences, built to reflect the quality,
-                      ambition, and greatness
+                      Transformamos marcas abrumadas en experiencias que destaquen la calidad y el valor del negocio.
                     </p>
                   </div>
-
                   <div className="space-y-4">
-=======
-                    <div className="space-y-4">
-                      <h3 className="text-2xl font-bold">Un proceso simplificado, ejecutado con cuidado metodológico.</h3>
-                      <p className="text-muted-foreground">
-                        Transformamos marcas abrumadas en experiencias que destacen la calidad y el valor del negocio.
-                      </p>
-                    </div>                  <div className="space-y-4">
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                     <div className="space-y-1">
                       <p className="text-sm text-muted-foreground">Timeline</p>
                       <p className="text-sm">Website & branding for Sony</p>
@@ -328,11 +282,7 @@ export function ExpertiseSection(): ReactElement {
                   <div className="pt-4">
                     <button className="text-primary flex items-center text-sm group-hover:underline">
                       <ChevronRight className="w-4 h-4 mr-1" />
-<<<<<<< HEAD
-                      Learn about our process
-=======
                       Conocé nuestro proceso
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
                     </button>
                   </div>
                 </div>
@@ -740,12 +690,8 @@ function ServiceSelectionCard(): ReactElement {
 
   const services = [
     {
-      id: "mechanical",
-<<<<<<< HEAD
-      name: "Mechanical",
-=======
-      name: "Rafa",
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
+  id: "mechanical",
+  name: "Mechanical",
       icon: <Cog className="w-6 h-6" />,
       color: "from-orange-500 to-orange-600",
       hoverColor: "from-orange-400 to-orange-500",
@@ -1030,19 +976,12 @@ Submitted at: ${new Date().toLocaleString()}
   return (
     <div className="h-full rounded-lg border border-border bg-background/50 p-6 hover:border-primary/50 transition-all duration-300">
       <div className="space-y-4">
-<<<<<<< HEAD
         <div>
-          <h3 className="text-2xl font-bold mb-2">Select a Service</h3>
-          <p className="text-muted-foreground">Choose the service you're interested in to start a consultation</p>
+          <h3 className="text-2xl font-bold mb-2">Construcción rápida</h3>
+          <p className="text-muted-foreground">Montamos tu tienda en base a lo conversado: catálogo, checkout con opción "Pagar en local", sincronía con Mercado Libre y scripts de automatización para WhatsApp.</p>
         </div>
 
         <div className="grid grid-cols-2 gap-3">
-=======
-                        <div>
-                          <h3 className="text-2xl font-bold mb-2">Construcción rápida</h3>
-                          <p className="text-muted-foreground">Montamos tu tienda en base a lo conversado: catálogo, checkout con opción "Pagar en local", sincronía con Mercado Libre y scripts de automatización para WhatsApp.</p>
-                        </div>        <div className="grid grid-cols-2 gap-3">
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
           {services.map((service) => (
             <motion.button
               key={service.id}

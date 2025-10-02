@@ -110,7 +110,7 @@ export function ServicesGrid() {
     },
   ]
 
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -120,7 +120,7 @@ export function ServicesGrid() {
     },
   }
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { y: 30, opacity: 0 },
     visible: {
       y: 0,

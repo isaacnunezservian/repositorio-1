@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Netlify Deployment Guide
 
 ## ✅ Build Status: READY FOR DEPLOYMENT
@@ -75,7 +74,6 @@ EMAILJS_SETUP.md         # Email setup guide
 - **Fallback:** WhatsApp integration already works
 
 Your site is production-ready and will deploy successfully! 🎉
-=======
 # 🚀 Guía de Deployment a Netlify
 
 ## Pasos para subir a GitHub y conectar con Netlify:
@@ -146,4 +144,3 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=tu_public_key
 - OS generated files
 
 ¡Tu sitio estará listo en minutos! 🎉
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca

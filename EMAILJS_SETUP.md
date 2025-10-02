@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📧 EmailJS Setup Guide
 
 ## Quick Setup Steps:
@@ -69,7 +68,6 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_actual_public_key
 - 200 emails/month (free tier)
 - Perfect for contact forms
 - No credit card required for setup
-=======
 # Configuración de EmailJS
 
 Para activar el envío de emails desde el formulario de contacto, sigue estos pasos:
@@ -139,4 +137,3 @@ await emailjs.send(
 ```
 
 ¡Listo! Los emails llegarán a isaac.nunezservian@gmail.com cada vez que alguien complete el formulario.
->>>>>>> 4379fcf94ef83abff5fd029075a6a0cf2282d3ca
